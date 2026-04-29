@@ -46,7 +46,7 @@ require_once __DIR__ . '/includes/header.php';
             <div class="form-row">
                 <div class="form-group">
                     <label for="name">Full Name <span style="color:#ef4444">*</span></label>
-                    <input type="text" id="name" name="name" class="form-control" required placeholder="Jane Doe"
+                    <input type="text" id="name" name="name" class="form-control" required placeholder="Peter Kimani Wafula"
                            value="<?= htmlspecialchars($_POST['name'] ?? '') ?>">
                 </div>
                 <div class="form-group">
