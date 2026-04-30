@@ -80,7 +80,7 @@ require_once __DIR__ . '/includes/header.php';
                 <form method="POST" action="actions/contact.php" id="contactForm" novalidate>
                     <div class="form-group">
                         <label for="name">Your Name <span style="color:red">*</span></label>
-                        <input type="text" id="name" name="name" class="form-control" required placeholder="Jane Doe" value="<?= htmlspecialchars($_POST['name'] ?? '') ?>">
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="James kamau kamau Wafula" value="<?= htmlspecialchars($_POST['name'] ?? '') ?>">
                     </div>
                     <div class="form-group">
                         <label for="email">Email Address <span style="color:red">*</span></label>
